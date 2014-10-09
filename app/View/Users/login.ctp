@@ -13,4 +13,5 @@
         ?>
     </fieldset>
     <?php echo $this->Form->end(__('Login')); ?>
+    <?php echo $this->Html->link(__('Create an account'), array('controller' => 'users', 'action' => 'add')); ?>
 </div>
