@@ -20,8 +20,8 @@
 <!--                <td>--><?php //echo h($productDetail['ProductDetail']['product_category']); ?><!--&nbsp;</td>-->
                 <td><?php echo h($productDetail['ProductDetail']['total_stock']); ?>&nbsp;</td>
                 <td class="actions">
-                    <?php echo $this->Html->link(__('View'), array('action' => 'view_cat', $productDetail['ProductDetail']['product_id'])); ?>
-                    <?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $productDetail['ProductDetail']['product_id']), array(), __('Are you sure you want to delete # %s?', $productDetail['ProductDetail']['product_id'])); ?>
+                    <?php echo $this->Html->link(__('View Details'), array('action' => 'view_cat', $productDetail['ProductDetail']['product_id'])); ?>
+
                 </td>
             </tr>
         <?php endforeach; ?>

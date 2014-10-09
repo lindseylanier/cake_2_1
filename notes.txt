@@ -2,12 +2,9 @@
 Authentication adapted from cakePHP manual, BlowfishPasswordHasher being used for encrypting/decrypting passwords
 http://book.cakephp.org/2.0/en/tutorials-and-examples/blog-auth-example/auth.html
 
+Shopping Cart Tutorial
+http://www.startutorial.com/articles/view/build-a-shopping-cart-with-cakephp-and-jquery-part-2
+
 Users:
 lindseylanier / password
 justinlanier / password
-
-For Catalog:
-Add a shopping cart section
-Create buttons to add items to the cart
-
-http://www.startutorial.com/articles/view/build-a-shopping-cart-with-cakephp-and-jquery-part-2

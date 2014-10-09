@@ -4,7 +4,7 @@
             <tr>
                 <th>Product Name</th>
 <!--                <th>Quantity</th>-->
-                <th>Total</th>
+<!--                <th>Total</th>-->
             </tr>
             </thead>
             <tbody>
@@ -23,7 +23,8 @@
         </table>
 
 <!--            --><?php //echo $this->Form->submit('Update',array('class'=>'btn btn-warning','div'=>false));?>
-        <?php echo $this->Html->link(__('Back to Shopping'), array('controller' => 'productdetails', 'action' => 'catalog')); ?>
+<?php echo $this->Html->link(__('Clear my shopping cart'), array('controller' => 'productdetails', 'action' => 'catalog')); ?><br>
+<?php echo $this->Html->link(__('Back to Shopping'), array('controller' => 'carts', 'action' => 'clear')); ?>
 
 
 <?php echo $this->Form->end();?>
